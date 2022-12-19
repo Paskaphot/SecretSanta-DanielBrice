@@ -86,7 +86,6 @@ function Cards() {
         );
       })}
       {winningGame ? <WinningPopUp /> : ""}
-      <WinningPopUp />
     </main>
   );
 }
