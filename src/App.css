@@ -4,7 +4,7 @@
 
 .header {
   margin: 20px 0;
-  color: #811331;
+  color: #63071f;
 }
 .header h1,
 .header p {
@@ -46,9 +46,9 @@ body {
 }
 
 .card {
-  background-color: #811331;
+  background-color: #63071f;
   border-radius: 5px;
-  border: 3px solid #811331;
+  border: 3px solid #63071f;
   animation: 2s hideCard linear;
 }
 
@@ -97,7 +97,7 @@ body {
 .popUp {
   background-color: white;
   border-radius: 5px;
-  border: 3px solid #811331;
+  border: 3px solid #63071f;
   padding: 20px;
   position: absolute;
   top: 50%;
@@ -105,28 +105,32 @@ body {
   transform: translate(-50%, -50%);
   box-shadow: rgba(255, 182, 193, 0.35) 0px 5px 15px;
 }
+
 .popUp__img {
   width: 170px;
   height: 170px;
-  border: 3px solid #811331;
+  border: 3px solid #63071f;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   overflow: hidden;
 }
+
 .popUp__text {
   margin: 20px;
   font-size: 2rem;
 }
+
 .popUp__button {
   border: 0;
-  background-color: #811331;
+  background-color: #63071f;
   color: white;
   border-radius: 5px;
   padding: 1rem;
   font-size: 1rem;
   text-transform: uppercase;
 }
+
 .popUp__button:hover {
-  background-color: #811331b3;
+  background-color: #63071fb3;
 }
